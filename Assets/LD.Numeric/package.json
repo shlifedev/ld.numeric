@@ -1,0 +1,13 @@
+{
+  "name": "com.shlifedev.numeric",
+  "displayName": "LD.Numeric",
+  "version": "0.9.0",
+  "unity": "2019.3",
+  "keywords": [
+    "unity",
+    "big-number"
+  ],
+  "description": "-_-..?",
+  "dependencies": { 
+  }
+}
