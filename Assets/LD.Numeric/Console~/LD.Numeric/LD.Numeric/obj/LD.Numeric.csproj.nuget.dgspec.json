@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/LD.Numeric.csproj": {}
+    "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/LD.Numeric.csproj": {}
   },
   "projects": {
-    "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/LD.Numeric.csproj": {
+    "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/LD.Numeric.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/LD.Numeric.csproj",
+        "projectUniqueName": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/LD.Numeric.csproj",
         "projectName": "LD.Numeric",
-        "projectPath": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/LD.Numeric.csproj",
+        "projectPath": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/LD.Numeric.csproj",
         "packagesPath": "/Users/shlifedev/.nuget/packages/",
-        "outputPath": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/obj/",
+        "outputPath": "/Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shlifedev/.nuget/NuGet/NuGet.Config"

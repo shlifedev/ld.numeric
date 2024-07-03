@@ -1,10 +1,11 @@
-﻿using LD;
+﻿using System;
+using LD;
+using LD.Numeric;
 
-public class Program
+public static class Program
 {
     public static void Main()
     {
-        new BigDouble("1234");
-        
+        Console.WriteLine(AlphabetConverter.ConvertToAlphabetUnit(1234));
     }
 }

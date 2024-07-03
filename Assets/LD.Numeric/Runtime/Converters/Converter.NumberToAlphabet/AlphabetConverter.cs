@@ -60,28 +60,33 @@ namespace LD.Numeric
 
         #region Value To Alphabet
 
-        public static string ConvertToAlphabetUnit(int number, string format = null)
+        public static string ConvertToAlphabetUnit(this int number,int maxDecimalPoint = 2)
         {
             if (number < 1000)
-                return number.ToString(format, CultureInfo.InvariantCulture);
+                return number.ToString(CultureInfo.InvariantCulture);
             long exponent = GetExponent(number);
 
             double divisor = Math.Pow(10, exponent);
-            double newNumber = (number / divisor);
+            double newNumber = (number / divisor); 
             string unit = AlphabetManager.GetAlphabetUnitFromExponent(exponent);
-            return $"{Math.Round(newNumber, 0)}{unit}";
+            return $"{newNumber.ToString($"F{maxDecimalPoint}")}{unit}";
         }
 
-        static string ConvertToAlphabetUnit(double number, string format = null)
+        public static string ConvertToAlphabetUnit(this float number, int maxDecimalPoint = 2)
+        {
+            return ConvertToAlphabetUnit((double)number, maxDecimalPoint);
+        }
+
+        public static string ConvertToAlphabetUnit(this double number, int maxDecimalPoint = 2)
         {
             if (number < 1000)
-                return number.ToString(format, CultureInfo.InvariantCulture);
+                return number.ToString(CultureInfo.InvariantCulture);
             long exponent = GetExponent(number);
 
             double divisor = Math.Pow(10, exponent);
             double newNumber = number / divisor;
             string unit = AlphabetManager.GetAlphabetUnitFromExponent(exponent);
-            return $"{newNumber:F1}{unit}";
+            return $"{newNumber.ToString($"F{maxDecimalPoint}")}{unit}";
         }
 
         #endregion

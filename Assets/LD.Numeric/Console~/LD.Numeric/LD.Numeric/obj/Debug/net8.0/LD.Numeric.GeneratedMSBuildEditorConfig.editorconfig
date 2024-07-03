@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LD.Numeric
-build_property.ProjectDir = /Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Project~/LD.Numeric/LD.Numeric/
+build_property.ProjectDir = /Users/shlifedev/git.shlifedev/LD.Numeric/Assets/LD.Numeric/Console~/LD.Numeric/LD.Numeric/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
